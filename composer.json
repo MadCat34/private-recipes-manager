@@ -1,17 +1,30 @@
 {
-    "name": "symfony-tools/recipes-checker",
+    "name": "madcat34/private-recipes-manager",
     "type": "project",
-    "license": "MIT",
+    "license": "AGPL-3.0-only",
+    "description": "Fork of symfony-tools/recipes-checker, to manage recipes for private bundles",
     "authors": [
         {
             "name": "Fabien Potencier",
-            "email": "fabien@symfony.com"
+            "email": "fabien@symfony.com",
+            "role": "Original author"
         },
         {
             "name": "Nicolas Grekas",
-            "email": "p@tchwork.com"
+            "email": "p@tchwork.com",
+            "role": "Original author"
+        },
+        {
+            "name": "MadCat34",
+            "email": "MadCat34@users.noreply.github.com",
+            "role": "Fork maintainer"
         }
     ],
+    "homepage": "https://github.com/MadCat34/private-recipes-manager",
+    "support": {
+        "source": "https://github.com/MadCat34/private-recipes-manager",
+        "issues": "https://github.com/MadCat34/private-recipes-manager/issues"
+    },
     "require": {
         "php": ">=8",
         "ext-ctype": "*",
