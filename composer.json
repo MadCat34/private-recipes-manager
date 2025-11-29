@@ -38,7 +38,8 @@
         "symfony/yaml": "^5.4"
     },
     "require-dev": {
-        "symfony/var-dumper": "^5.3"
+        "symfony/var-dumper": "^5.3",
+        "arokettu/composer-license-manager": "^1.2"
     },
     "replace": {
         "symfony/polyfill-ctype": "*",
@@ -55,7 +56,49 @@
     },
     "config": {
         "allow-plugins": {
-            "symfony/runtime": true
+            "symfony/runtime": true,
+            "arokettu/composer-license-manager": true
+        }
+    },
+    "extra": {
+        "arokettu/composer-license-manager": {
+            "licenses": {
+                "allowed": [
+                    "AGPL-3.0-only",
+                    "AGPL-3.0-or-later",
+                    "GPL-3.0-only",
+                    "GPL-3.0-or-later",
+                    "LGPL-3.0-only",
+                    "LGPL-3.0-or-later",
+                    "MIT",
+                    "BSD-2-Clause",
+                    "BSD-3-Clause",
+                    "Apache-2.0",
+                    "ISC",
+                    "Unlicense",
+                    "CC0-1.0",
+                    "MPL-2.0"
+                ],
+                "forbidden": [
+                    "GPL-2.0-only",
+                    "LGPL-2.1-only",
+                    "EPL-1.0",
+                    "EPL-2.0",
+                    "CDDL-1.0",
+                    "MPL-1.1",
+                    "OSL-3.0",
+                    "NPL-1.1",
+                    "JSON",
+                    "SSPL-1.0",
+                    "Proprietary",
+                    "Commercial",
+                    "Non-free",
+                    "NOASSERTION",
+                    "UNKNOWN"
+                ],
+                "allow-empty": false
+            },
+            "enforced": true
         }
     }
 }
