@@ -8,7 +8,6 @@ repo_url: https://github.com/MadCat34/private-recipes-manager
 
 theme:
   name: material
-  docs_dir: ./../docs
   language: fr
   palette:
     - media: "(prefers-color-scheme: light)"
