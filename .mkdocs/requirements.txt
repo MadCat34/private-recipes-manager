@@ -1,0 +1,6 @@
+mkdocs-material
+mkdocs-minify-plugin
+pymdown-extensions
+mkdocs-static-i18n
+mkdocs-git-revision-date-localized-plugin
+mkdocs-awesome-pages-plugin

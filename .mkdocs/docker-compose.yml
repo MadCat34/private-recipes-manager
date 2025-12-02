@@ -1,0 +1,13 @@
+services:
+  mkdocs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./../docs:/docs/docs:delegated
+      - ./mkdocs.yml:/docs/mkdocs.yml
+    working_dir: /docs
+    stdin_open: true
+    tty: true
